@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 import numpy as np
 
 # Load the cleaned data
-file_path = '/workspaces/emigrant-country-dashboard/Cleaned_Emigrant_Data.xlsx'
+file_path = 'Cleaned_Emigrant_Data.xlsx'
 df = pd.read_excel(file_path)
 
 # Data Processing
